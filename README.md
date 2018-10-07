@@ -10,4 +10,8 @@ PCB
 SCH
 ![image](https://github.com/xiaoqianzi15/ELEC5552-2018-SEM2-REV-Jetski-message-transfer/blob/master/Project_Sch-PCB/Sch.png)
 
+Installation
+![image](https://github.com/xiaoqianzi15/ELEC5552-2018-SEM2-REV-Jetski-message-transfer/blob/master/Project_Sch-PCB/Sch.png)
+
+
 
