@@ -1,7 +1,9 @@
 # ELEC5552-2018-SEM2-REV-Jetski-message-transfer
 Use 3G to Transfer battery information, water quality to the Website. also show navigation 
 
-you can find information about water sensor here: https://www.dfrobot.com/wiki/index.php/Analog_EC_Meter_SKU:DFR0300
+find information about water sensor here: https://www.dfrobot.com/wiki/index.php/Analog_EC_Meter_SKU:DFR0300      
+find more information about due_can here:  https://github.com/collin80/due_can       
+
 
 
 
