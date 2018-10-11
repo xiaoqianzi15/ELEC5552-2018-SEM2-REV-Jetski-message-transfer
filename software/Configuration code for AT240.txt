@@ -1,0 +1,30 @@
+// How to use: Copy below codes to the Arduino IDE and change the ip and port_num in the codes.
+#include <SoftwareSerial.h>
+
+#define rxPin 19
+#define txPin 18
+
+// set up a new serial port
+SoftwareSerial mySerial =  SoftwareSerial(rxPin, txPin);
+
+void setup()  {
+  // define pin modes for tx, rx:
+  pinMode(rxPin, INPUT);
+  pinMode(txPin, OUTPUT);
+  // set the data rate for the SoftwareSerial port
+  mySerial.begin(115200);
+  mySerial.write("$APAN,telstra.m2m");
+  mySerial.write("$APUN,user");
+  mySerial.write("$APPW,password");
+  mySerial.write("$IPAD1,<ip address>");//This <ip address> should be changed to the ip address of the current server
+  mySerial.write("$PORT1,<port_num>");//this <port_num> should be changed to the port number of the current server
+  mySerial.write("$TCPT,0");//disable the acknowledgment feature
+  mySerial.write("$MODE,4");
+  mySerial.write("$REPL,4294967295");//enable all report
+  mySerial.write("$PROT,0");//using protocol A
+  mySerial.write("$IGNM,2");//start report based on ignition enable low power mode
+}
+
+void loop() {
+  
+}
