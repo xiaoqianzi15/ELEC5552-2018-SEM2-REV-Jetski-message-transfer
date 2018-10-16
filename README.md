@@ -1,5 +1,5 @@
 # ELEC5552-2018-SEM2-REV-Jetski-message-transfer
-Use 3G to Transfer battery information, water quality to the Website. also show navigation 
+Use 3G to Transfer messages from BMS, Motor controller,Water sensor and GPS_Logger to a website. Also use CAN_Bus to transfer information to Dashboard to show the working status of the Jetski.
 
 find information about water sensor here: https://www.dfrobot.com/wiki/index.php/Analog_EC_Meter_SKU:DFR0300      
 find more information about due_can here:  https://github.com/collin80/due_can       
